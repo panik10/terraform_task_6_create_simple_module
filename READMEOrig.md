@@ -1,12 +1,12 @@
 <<<<<<< HEAD
 # terraform-azurerm-resource_group_storage
-RG in Azure
+RG in Azure Module
 =======
 # Working with Terraform Modules
 
 ## Prerequisites
 
-To complete this task, Terraform and Azure CLI must be installed and configured on your machine.
+To complete this task, you must have Terraform and Azure CLI installed and configured on your machine.
 
 ## Steps to Complete the Task
 
@@ -16,15 +16,15 @@ To complete this task, Terraform and Azure CLI must be installed and configured 
 
 - Create a directory named `modules/resource_group_storage` in the root of your repository.
 - Inside the `modules/resource_group_storage` directory, create the following files:
-    * `main.tf`: define the resources.
-    * `variables.tf`: define the variables.
-    * `outputs.tf`: define the outputs.
+    * `main.tf`: Define the resources.
+    * `variables.tf`: Define the variables.
+    * `outputs.tf`: Define the outputs.
 
 **3. Publish the Module on GitHub**
 
 - Create a new repository on GitHub named according to Terraform's naming convention, e.g.`terraform-azurerm-resource_group_storage`.
 - Add the module files (`main.tf`, `variables.tf`, `outputs.tf`) to this repository.
-- Add an `INSTRUCTION.md` file with detailed usage instructions.
+- Add a `README.md` file with detailed usage instructions.
 - Add a `LICENSE` file to specify the usage rights.
 - Add a `.gitignore` file to ignore Terraform state files and other sensitive information.
 - Commit and push the files to GitHub.
@@ -42,4 +42,4 @@ To complete this task, Terraform and Azure CLI must be installed and configured 
 - Initialize and apply the configuration to verify that the module is used correctly.
 
 **6. Pull request's description should also contain a reference to a successful workflow run**
->>>>>>> 2982a7d (Update README.md)
+>>>>>>> 1cc40bf (Initial commit)
