@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# terraform-azurerm-resource_group_storage
-RG in Azure
-=======
 # Working with Terraform Modules
 
 ## Prerequisites
@@ -42,4 +38,3 @@ To complete this task, Terraform and Azure CLI must be installed and configured 
 - Initialize and apply the configuration to verify that the module is used correctly.
 
 **6. Pull request's description should also contain a reference to a successful workflow run**
->>>>>>> 2982a7d (Update README.md)
