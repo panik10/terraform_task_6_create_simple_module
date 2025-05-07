@@ -1,7 +1,7 @@
 # terraform-azurerm-resource_group_storage
 terraform-azurerm - resource_group_storage
 
-This module will create a new resource grope and a storage account inside in your Azure terraform project.
+This module will create a new resource group and a storage account inside in your Azure terraform project.
 
 To use this module simply add it to your terraform project and parametrize with following variables:
 
