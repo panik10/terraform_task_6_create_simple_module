@@ -14,9 +14,9 @@ provider "azurerm" {
 }
 
 module "resource_group_storage" {
-  source  = "panik10/resource_group_storage/azurerm"
-  version = "0.0.1"
-  location = "West Europe"
-  resource_group_name = "new_rg"
+  source               = "panik10/resource_group_storage/azurerm"
+  version              = "0.0.1"
+  location             = "West Europe"
+  resource_group_name  = "new_rg"
   storage_account_name = "matestoragetf6"
 }
